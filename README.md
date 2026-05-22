@@ -39,3 +39,11 @@ public static void main(String[]args) {
 
 }
 Por fim para finalizar esse programa, precisamos colocar o código que faz mostrar uma mensagem na tela: 
+public class Main {
+   public static void main(String[]args) {
+     System.out.println("Olá, Alunos!")
+     }
+     }
+Para executar esse programa há duas alternativas: 
+1-Aparecerá um botão Run abaixo da public class Main, basta apertar e o resultado aparece no terminal do VSCode. 
+2- Abrir o Prompt de Comando do windows (cmd) -> navegar até a pasta onde o projeto está salvo (cd nome-da-pasta)-> digitar primeiro: javac Main.java (se o projeto tiver outro nome é preciso digitar esse outro nome) -> pressione Enter -> na próxima linha digite Java Main (ou o nome do programa se for diferente)
