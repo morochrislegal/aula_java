@@ -29,4 +29,13 @@ Com o terminal aberto digite: java --version. Se aparecer o número da versão (
 
 Criando um programa em Java:
 Abrir o VSCode, abrir uma pasta (AulaJava, por exemplo), criar um novo arquivo com extensão .java (Main.java, por exemplo).
-Ao criar o arquivo, se a extensão estiver instalada corretamente
+Ao criar o arquivo, se a extensão estiver instalada corretamente, aparecerá o código: 
+public class Main (
+
+)
+na sequência precisamos inserir a parte do código onde o Java de fato funciona: 
+public class Main (
+public static void main(String[]args) {
+
+}
+Por fim para finalizar esse programa, precisamos colocar o código que faz mostrar uma mensagem na tela: 
